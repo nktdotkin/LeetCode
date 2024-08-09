@@ -1,5 +1,6 @@
 #### Run benchmarks
 
 ```sh
-sudo dotnet -c release
+sudo dotnet build -c release
+sudo dotnet run -c release
 ```

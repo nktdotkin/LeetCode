@@ -9,10 +9,10 @@ namespace LeetCode;
 // | DominantIndexSlow    | 39.939 ns | 0.2486 ns | 0.2203 ns |
 public class Solution747
 {
-    private readonly int[] _nums = new[] { 3, 6, 1, 0 };
+    private static readonly int[] _nums = new[] { 3, 6, 1, 0 };
 
     [Benchmark]
-    public int DominantIndexFastest()
+    public static int DominantIndexFastest()
     {
         var largest = -1;
         var largestIndex = -1;
@@ -45,7 +45,7 @@ public class Solution747
     }
 
     [Benchmark]
-    public int DominantIndexFast()
+    public static int DominantIndexFast()
     {
         var largest = -1;
         var largestIndex = -1;
@@ -70,7 +70,7 @@ public class Solution747
     }
 
     [Benchmark]
-    public int DominantIndexSlow()
+    public static int DominantIndexSlow()
     {
         var largest = _nums.Max();
 

@@ -49,7 +49,7 @@ public class Solution767
         return ReorganizeStringSortedSet("aaabvsalksjvmcbc");
     }
 
-    public string ReorganizeStringSortedDictionary(string s)
+    public static string ReorganizeStringSortedDictionary(string s)
     {
         var charDictionary = new SortedDictionary<char, int>();
 
@@ -99,7 +99,7 @@ public class Solution767
         return sb.ToString();
     }
 
-    public string ReorganizeStringSortedSet(string s)
+    public static string ReorganizeStringSortedSet(string s)
     {
         var charDictionary = new Dictionary<char, int>();
 
@@ -156,7 +156,7 @@ public class Solution767
         return sb.ToString();
     }
 
-    public string ReorganizeStringSlow(string s)
+    public static string ReorganizeStringSlow(string s)
     {
         var asSpan = s.AsSpan();
         var charDictionary = new Dictionary<char, int>();

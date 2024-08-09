@@ -50,7 +50,7 @@ public class Solution1405
         return LongestDiverseString_Accepted_Fast(23, 17, 28);
     }
 
-    public string LongestDiverseString_ChatGpt(int a, int b, int c)
+    public static string LongestDiverseString_ChatGpt(int a, int b, int c)
     {
         const int maxContinuousSequenceCount = 2;
 
@@ -97,7 +97,7 @@ public class Solution1405
         return sb.ToString();
     }
 
-    public string LongestDiverseString_Accepted_Fast(int a, int b, int c)
+    public static string LongestDiverseString_Accepted_Fast(int a, int b, int c)
     {
         const int maxContinuousSequenceCount = 2;
 
@@ -151,7 +151,7 @@ public class Solution1405
         return sb.ToString();
     }
 
-    public string LongestDiverseString_Accepted_Slow(int a, int b, int c)
+    public static string LongestDiverseString_Accepted_Slow(int a, int b, int c)
     {
         const int maxContiniousSequenceCount = 2;
 
