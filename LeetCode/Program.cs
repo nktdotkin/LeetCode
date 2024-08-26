@@ -11,5 +11,7 @@ public static class Program
         // BenchmarkRunner.Run<Solution767>();
         // BenchmarkRunner.Run<Solution1405>();
         // BenchmarkRunner.Run<Solution212>();
+        // MCCCXCVIII
+        Solution12.IntToRoman(1398);
     }
 }
